@@ -1,25 +1,17 @@
-# 🌐 Multilingual Translator (Gradio App)
+# 🌐 TalkBuddy
 
-This is a **Gradio-based multilingual translator** built using the **MBart-50 model** from Hugging Face Transformers.
+**TalkBuddy** is a multilingual translation app built using **Gradio** and **MBart50**.  
+It supports **50+ languages** and provides a smooth and beautiful interface to translate between any two languages.
 
-### 🚀 Live App
-You can access the deployed app here:  
-👉 [https://huggingface.co/spaces/<your-username>/<your-space-name>](https://huggingface.co/spaces/<your-username>/<your-space-name>)
+### 🚀 Features
+- Supports 50 world languages.
+- Beautiful Gradio Blocks UI.
+- Swap source and target languages instantly.
+- Powered by Facebook’s MBart model.
 
-### 🧠 Tech Stack
-- **Python 3.10+**
-- **Gradio**
-- **Hugging Face Transformers**
-- **PyTorch**
+### 🧠 Model
+Uses [`facebook/mbart-large-50-many-to-many-mmt`](https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt)
 
-### 🧩 Features
-- Supports 50+ languages
-- Uses `facebook/mbart-large-50-many-to-many-mmt`
-- Fast, easy, and accurate translation interface
+---
 
-### 🛠️ How to Run Locally
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-pip install -r requirements.txt
-python app.py
+Developed by **Yamini Vatluri 💜**
